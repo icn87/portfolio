@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hi! my name is Matias based in Sweden, I did software engineering from Uppsala University Sweden in 2015, I am a web developer and AWS certified"
+    />
+    <title>Matias portfolio</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/fevicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/fevicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/fevicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/fevicons/site.webmanifest" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <nav class="nav">
+      <div class="nav__wrapper">
+        <div class="nav__wrapper__logo">
+          <a href="#header" class="nav__wrapper__logo__brand">matias</a>
+        </div>
+        <ul class="nav__wrapper__ul">
+          <li class="nav__wrapper__ul__li">
+            <a href="#header" class="nav__wrapper__ul__li__a">Hem</a>
+          </li>
+          <li class="nav__wrapper__ul__li">
+            <a href="#about" class="nav__wrapper__ul__li__a">Om Mig</a>
+          </li>
+          <li class="nav__wrapper__ul__li">
+            <a href="#projects" class="nav__wrapper__ul__li__a">Projekt</a>
+          </li>
+          <li class="nav__wrapper__ul__li">
+            <a href="#skills" class="nav__wrapper__ul__li__a">kompetens</a>
+          </li>
+          <li class="nav__wrapper__ul__li">
+            <a href="#blogs" class="nav__wrapper__ul__li__a">blog</a>
+          </li>
+        </ul>
+        <div class="nav__wrapper__toggle">
+          <i class="bi bi-justify-right"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- Close Navbar -->
+    <header class="header" id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xlg-6 col-lg-6 col-md-12">
+            <div class="header__data">
+              <div class="header__data__contents">
+                <h5 class="header__data__contents__top">Mitt namn är</h5>
+                <h1 class="header__data__contents__heading"></h1>
+                <h4 class="header__data__contents__bottom">
+                  wordpress utvecklare
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Close Header -->
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row items-center">
+          <div class="col-xlg-6 col-lg-6 col-sm-12">
+            <div class="about__image">
+              <img src="./assets/images/large.jpg" alt="large image" />
+              <div class="about__image__small">
+                <img src="./assets/images/small.jpg" alt="small image" />
+              </div>
+              <!-- close about__image__small -->
+            </div>
+            <!-- close about__image -->
+          </div>
+          <!-- close column -->
+          <div class="col-xlg-6 col-lg-6 col-sm-12">
+            <h1 class="heading">Vem är jag?</h1>
+            <div class="about__info">
+              <p class="about__info__message">
+                Hej och välkommen till min portfolio! Mitt namn är Matias, och
+                jag är en passionerad webbutvecklare med fokus på att skapa
+                imponerande och användarvänliga webblösningar.
+              </p>
+              <div class="about__info__block">
+                <span class="about__info__block__left"> Namn </span>
+                <span class="about__info__block__right"> matias </span>
+              </div>
+
+              <!-- close about__info__block -->
+              <div class="about__info__block">
+                <span class="about__info__block__left"> email </span>
+                <span class="about__info__block__right lowercase">
+                  matias.ikonen87@outlook.com
+                </span>
+              </div>
+              <!-- close about__info__block -->
+              <div class="about__info__socials">
+                <a
+                  href="https://linkedin.com/username"
+                  class="about__info__socials__circle"
+                  target="_blank"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+
+                <a
+                  href="https://github.com/username"
+                  class="about__info__socials__circle"
+                  target="_blank"
+                  ><i class="bi bi-github"></i
+                ></a>
+              </div>
+              <!-- close about__info__socials -->
+            </div>
+          </div>
+          <!-- close column -->
+        </div>
+        <!-- close row -->
+      </div>
+    </section>
+    <!-- close about -->
+
+    <!-- close education -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h1 class="heading">projects</h1>
+        <div class="row">
+          <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
+            <div class="projects__card">
+              <div class="projects__card__image">
+                <img src="./assets/projects/project1.jpg" alt="project image" />
+              </div>
+              <!-- close projects__card__image -->
+              <div class="projects__card__layer">
+                <div class="projects__card__layer__contents">
+                  <h3 class="projects__card__layer__contents__title">
+                    ecommerce application
+                  </h3>
+                  <span class="projects__card__layer__contents__tools"
+                    >nodejs, mongodb, tailwind</span
+                  >
+                </div>
+                <!-- close projects__card__layer__contents -->
+                <div class="projects__card__layer__link">
+                  <a href="#"><i class="bi bi-github"></i></a>
+                </div>
+                <!-- close projects__card__layer__link -->
+              </div>
+              <!-- close projects__card__layer -->
+            </div>
+            <!-- close projects__card -->
+          </div>
+          <!-- close column -->
+          <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
+            <div class="projects__card">
+              <div class="projects__card__image">
+                <img src="./assets/projects/project2.jpg" alt="project image" />
+              </div>
+              <!-- close projects__card__image -->
+              <div class="projects__card__layer">
+                <div class="projects__card__layer__contents">
+                  <h3 class="projects__card__layer__contents__title">
+                    social media app
+                  </h3>
+                  <span class="projects__card__layer__contents__tools"
+                    >nodejs, vuejs & vuetify</span
+                  >
+                </div>
+                <!-- close projects__card__layer__contents -->
+                <div class="projects__card__layer__link">
+                  <a href="#"><i class="bi bi-github"></i></a>
+                </div>
+                <!-- close projects__card__layer__link -->
+              </div>
+              <!-- close projects__card__layer -->
+            </div>
+            <!-- close projects__card -->
+          </div>
+          <!-- close column -->
+          <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
+            <div class="projects__card">
+              <div class="projects__card__image">
+                <img src="./assets/projects/project3.jpg" alt="project image" />
+              </div>
+              <!-- close projects__card__image -->
+              <div class="projects__card__layer">
+                <div class="projects__card__layer__contents">
+                  <h3 class="projects__card__layer__contents__title">
+                    ecommerce mobile app
+                  </h3>
+                  <span class="projects__card__layer__contents__tools"
+                    >react native & firebase</span
+                  >
+                </div>
+                <!-- close projects__card__layer__contents -->
+                <div class="projects__card__layer__link">
+                  <a href="#"><i class="bi bi-github"></i></a>
+                </div>
+                <!-- close projects__card__layer__link -->
+              </div>
+              <!-- close projects__card__layer -->
+            </div>
+            <!-- close projects__card -->
+          </div>
+          <!-- close column -->
+          <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
+            <div class="projects__card">
+              <div class="projects__card__image">
+                <img src="./assets/projects/project4.jpg" alt="project image" />
+              </div>
+              <!-- close projects__card__image -->
+              <div class="projects__card__layer">
+                <div class="projects__card__layer__contents">
+                  <h3 class="projects__card__layer__contents__title">
+                    real estate app
+                  </h3>
+                  <span class="projects__card__layer__contents__tools"
+                    >laravel, mysql & tailwind</span
+                  >
+                </div>
+                <!-- close projects__card__layer__contents -->
+                <div class="projects__card__layer__link">
+                  <a href="#"><i class="bi bi-github"></i></a>
+                </div>
+                <!-- close projects__card__layer__link -->
+              </div>
+              <!-- close projects__card__layer -->
+            </div>
+            <!-- close projects__card -->
+          </div>
+          <!-- close column -->
+          <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
+            <div class="projects__card">
+              <div class="projects__card__image">
+                <img src="./assets/projects/project5.jpg" alt="project image" />
+              </div>
+              <!-- close projects__card__image -->
+              <div class="projects__card__layer">
+                <div class="projects__card__layer__contents">
+                  <h3 class="projects__card__layer__contents__title">
+                    photo sharing app
+                  </h3>
+                  <span class="projects__card__layer__contents__tools"
+                    >nodejs, mongodb & tailwind</span
+                  >
+                </div>
+                <!-- close projects__card__layer__contents -->
+                <div class="projects__card__layer__link">
+                  <a href="#"><i class="bi bi-github"></i></a>
+                </div>
+                <!-- close projects__card__layer__link -->
+              </div>
+              <!-- close projects__card__layer -->
+            </div>
+            <!-- close projects__card -->
+          </div>
+          <!-- close column -->
+          <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
+            <div class="projects__card">
+              <div class="projects__card__image">
+                <img src="./assets/projects/project6.jpg" alt="project image" />
+              </div>
+              <!-- close projects__card__image -->
+              <div class="projects__card__layer">
+                <div class="projects__card__layer__contents">
+                  <h3 class="projects__card__layer__contents__title">
+                    resturent application
+                  </h3>
+                  <span class="projects__card__layer__contents__tools"
+                    >nextjs, reactjs & bootstrap</span
+                  >
+                </div>
+                <!-- close projects__card__layer__contents -->
+                <div class="projects__card__layer__link">
+                  <a href="#"><i class="bi bi-github"></i></a>
+                </div>
+                <!-- close projects__card__layer__link -->
+              </div>
+              <!-- close projects__card__layer -->
+            </div>
+            <!-- close projects__card -->
+          </div>
+          <!-- close column -->
+          <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
+            <div class="projects__card">
+              <div class="projects__card__image">
+                <img src="./assets/projects/project7.jpg" alt="project image" />
+              </div>
+              <!-- close projects__card__image -->
+              <div class="projects__card__layer">
+                <div class="projects__card__layer__contents">
+                  <h3 class="projects__card__layer__contents__title">
+                    travel application
+                  </h3>
+                  <span class="projects__card__layer__contents__tools"
+                    >php, mysql & bootstrap</span
+                  >
+                </div>
+                <!-- close projects__card__layer__contents -->
+                <div class="projects__card__layer__link">
+                  <a href="#"><i class="bi bi-github"></i></a>
+                </div>
+                <!-- close projects__card__layer__link -->
+              </div>
+              <!-- close projects__card__layer -->
+            </div>
+            <!-- close projects__card -->
+          </div>
+          <!-- close column -->
+          <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
+            <div class="projects__card">
+              <div class="projects__card__image">
+                <img src="./assets/projects/project8.jpg" alt="project image" />
+              </div>
+              <!-- close projects__card__image -->
+              <div class="projects__card__layer">
+                <div class="projects__card__layer__contents">
+                  <h3 class="projects__card__layer__contents__title">
+                    bitcoin application
+                  </h3>
+                  <span class="projects__card__layer__contents__tools"
+                    >python, mysql, tailwind</span
+                  >
+                </div>
+                <!-- close projects__card__layer__contents -->
+                <div class="projects__card__layer__link">
+                  <a href="#"><i class="bi bi-github"></i></a>
+                </div>
+                <!-- close projects__card__layer__link -->
+              </div>
+              <!-- close projects__card__layer -->
+            </div>
+            <!-- close projects__card -->
+          </div>
+          <!-- close column -->
+        </div>
+        <!-- close row -->
+      </div>
+    </section>
+    <!-- close projects -->
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="row items-center">
+          <div class="col-xlg-6 col-lg-6 col-sm-12">
+            <div class="skills__contents">
+              <h1 class="skills__contents__heading">
+                Jag har hög kompetens inom utveckling och programmering
+              </h1>
+              <p class="skills__contents__message">
+                Jag har höga färdigheter inom wordpress utveckling. Som en
+                hängiven WordPress-entusiast har jag ägnat mig åt att bygga
+                anpassade webbplatser och skapa unika digitala upplevelser. Jag
+                har omfattande kunskap och erfarenhet av att arbeta med
+                WordPress-plattformen och dess ekosystem av teman, tillägg och
+                anpassningar.
+              </p>
+              <!-- close skills__contents__message -->
+            </div>
+            <!-- close skills__contents -->
+          </div>
+          <!-- close column -->
+          <div class="col-xlg-6 col-lg-6 col-sm-12">
+            <h1 class="heading">Min kompetens</h1>
+            <div class="skills__block">
+              <span class="skills__block__exp">4 År</span>
+              <span class="skills__block__list">html, css & javascript</span>
+            </div>
+            <!-- close skills__block -->
+            <div class="skills__block">
+              <span class="skills__block__exp">3 År</span>
+              <span class="skills__block__list">Wordpress</span>
+            </div>
+            <!-- close skills__block -->
+            <div class="skills__block">
+              <span class="skills__block__exp">2 År</span>
+              <span class="skills__block__list">php</span>
+            </div>
+            <!-- close skills__block -->
+
+            <!-- close skills__block -->
+
+            <!-- close skills__block -->
+
+            <!-- close skills__block -->
+          </div>
+          <!-- close column -->
+        </div>
+        <!-- close row -->
+      </div>
+    </section>
+    <!-- close skills -->
+
+    <!-- close testimonials -->
+
+    <section class="blogs" id="blogs">
+      <div class="container">
+        <h1 class="heading">min blogg</h1>
+        <div class="row">
+          <div class="col-xlg-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="blogs__card">
+              <div class="blogs__card__image">
+                <img src="./assets/posts/tailwindcss.png" alt="post image" />
+                <div class="blogs__card__image__layer">
+                  <span class="blogs__card__image__layer__category"
+                    >frontend</span
+                  >
+                </div>
+                <!-- close blogs__card__image__layer -->
+              </div>
+              <!-- close blogs__card__image -->
+              <div class="blogs__card__author">
+                <div class="blogs__card__author__image">
+                  <img src="./assets/posts/author.jpg" alt="author image" />
+                </div>
+                <!-- close blogs__card__author__image -->
+                <div class="blogs__card__author__details">
+                  <span class="blogs__card__author__details__name">matias</span>
+                  <span class="blogs__card__author__details__date">
+                    <i class="bi bi-clock"></i>
+                    <span class="blogs__card__author__details__date__time"
+                      >15 jan 2022</span
+                    >
+                  </span>
+                </div>
+                <!-- close blogs__card__author__details -->
+              </div>
+              <!-- close blogs__card__author -->
+              <div class="blogs__card__body">
+                <h3 class="blogs__card__body__title">
+                  <a href="#">Tailwindcss the complete guide for beginners</a>
+                </h3>
+                <a href="#" class="blogs__card__body__link">läs mer &rarr;</a>
+              </div>
+              <!-- close blogs__card__body -->
+            </div>
+            <!-- close blogs__card -->
+          </div>
+          <!-- close column -->
+
+          <div class="col-xlg-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="blogs__card">
+              <div class="blogs__card__image">
+                <img src="./assets/posts/nextjs-sanity.png" alt="post image" />
+                <div class="blogs__card__image__layer">
+                  <span class="blogs__card__image__layer__category"
+                    >backend</span
+                  >
+                </div>
+                <!-- close blogs__card__image__layer -->
+              </div>
+              <!-- close blogs__card__image -->
+              <div class="blogs__card__author">
+                <div class="blogs__card__author__image">
+                  <img src="./assets/posts/author.jpg" alt="author image" />
+                </div>
+                <!-- close blogs__card__author__image -->
+                <div class="blogs__card__author__details">
+                  <span class="blogs__card__author__details__name"
+                    >matiasf</span
+                  >
+                  <span class="blogs__card__author__details__date">
+                    <i class="bi bi-clock"></i>
+                    <span class="blogs__card__author__details__date__time"
+                      >18 jan 2022</span
+                    >
+                  </span>
+                </div>
+                <!-- close blogs__card__author__details -->
+              </div>
+              <!-- close blogs__card__author -->
+              <div class="blogs__card__body">
+                <h3 class="blogs__card__body__title">
+                  <a href="#">Nextjs, React & Sanity.io create airbnb clone</a>
+                </h3>
+                <a href="#" class="blogs__card__body__link">läs mer &rarr;</a>
+              </div>
+              <!-- close blogs__card__body -->
+            </div>
+            <!-- close blogs__card -->
+          </div>
+          <!-- close column -->
+
+          <div class="col-xlg-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="blogs__card">
+              <div class="blogs__card__image">
+                <img src="./assets/posts/next-foods.png" alt="post image" />
+                <div class="blogs__card__image__layer">
+                  <span class="blogs__card__image__layer__category"
+                    >backend</span
+                  >
+                </div>
+                <!-- close blogs__card__image__layer -->
+              </div>
+              <!-- close blogs__card__image -->
+              <div class="blogs__card__author">
+                <div class="blogs__card__author__image">
+                  <img src="./assets/posts/author.jpg" alt="author image" />
+                </div>
+                <!-- close blogs__card__author__image -->
+                <div class="blogs__card__author__details">
+                  <span class="blogs__card__author__details__name">matias</span>
+                  <span class="blogs__card__author__details__date">
+                    <i class="bi bi-clock"></i>
+                    <span class="blogs__card__author__details__date__time"
+                      >20 jan 2022</span
+                    >
+                  </span>
+                </div>
+                <!-- close blogs__card__author__details -->
+              </div>
+              <!-- close blogs__card__author -->
+              <div class="blogs__card__body">
+                <h3 class="blogs__card__body__title">
+                  <a href="#">Nextjs & React create foods order applications</a>
+                </h3>
+                <a href="#" class="blogs__card__body__link">läs mer &rarr;</a>
+              </div>
+              <!-- close blogs__card__body -->
+            </div>
+            <!-- close blogs__card -->
+          </div>
+          <!-- close column -->
+
+          <div class="col-xlg-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="blogs__card">
+              <div class="blogs__card__image">
+                <img src="./assets/posts/sass.png" alt="post image" />
+                <div class="blogs__card__image__layer">
+                  <span class="blogs__card__image__layer__category"
+                    >frontend</span
+                  >
+                </div>
+                <!-- close blogs__card__image__layer -->
+              </div>
+              <!-- close blogs__card__image -->
+              <div class="blogs__card__author">
+                <div class="blogs__card__author__image">
+                  <img src="./assets/posts/author.jpg" alt="author image" />
+                </div>
+                <!-- close blogs__card__author__image -->
+                <div class="blogs__card__author__details">
+                  <span class="blogs__card__author__details__name">matias</span>
+                  <span class="blogs__card__author__details__date">
+                    <i class="bi bi-clock"></i>
+                    <span class="blogs__card__author__details__date__time"
+                      >22 jan 2022</span
+                    >
+                  </span>
+                </div>
+                <!-- close blogs__card__author__details -->
+              </div>
+              <!-- close blogs__card__author -->
+              <div class="blogs__card__body">
+                <h3 class="blogs__card__body__title">
+                  <a href="#">Sass create a responsive travel website UI</a>
+                </h3>
+                <a href="#" class="blogs__card__body__link">läs mer &rarr;</a>
+              </div>
+              <!-- close blogs__card__body -->
+            </div>
+            <!-- close blogs__card -->
+          </div>
+          <!-- close column -->
+        </div>
+        <!-- close row -->
+      </div>
+    </section>
+    <!-- close blogs -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row items-center">
+          <div class="col-xlg-5 col-lg-5 col-md-12">
+            <div class="footer__image">
+              <img src="./assets/images/developer.jpg" alt="developer image" />
+              <span class="footer__image__label">
+                Tillgänglig som frilansare</span
+              >
+            </div>
+            <!-- close footer__image -->
+            <p class="footer__copyright">
+              Copyright &copy; <span class="year"></span> by
+              <span class="footer__copyright--name">matias</span>, All rights
+              reserved
+            </p>
+          </div>
+          <!-- close column -->
+          <div class="col-xlg-7 col-lg-7 col-md-12">
+            <form action="" class="form">
+              <h1 class="heading">Kontakta Mig</h1>
+              <div class="row">
+                <div class="col-xlg-6 col-lg-6 col-md-12">
+                  <input
+                    type="text"
+                    class="form__control"
+                    placeholder="Namn..."
+                  />
+                </div>
+                <!-- close column -->
+                <div class="col-xlg-6 col-lg-6 col-md-12">
+                  <input
+                    type="email"
+                    class="form__control"
+                    placeholder="Email..."
+                  />
+                </div>
+                <!-- close column -->
+                <div class="col-xlg-12 col-lg-12">
+                  <input
+                    type="text"
+                    class="form__control"
+                    placeholder="Ämne..."
+                  />
+                </div>
+                <!-- close column -->
+                <div class="col-xlg-12 col-lg-12">
+                  <textarea
+                    name=""
+                    class="form__control"
+                    cols="30"
+                    rows="10"
+                    placeholder="Ditt meddelande..."
+                  ></textarea>
+                </div>
+                <!-- close column -->
+                <div class="col-xlg-12 col-lg-12">
+                  <input
+                    type="submit"
+                    value="Skicka email"
+                    class="btn btn-dark"
+                  />
+                </div>
+                <!-- close column -->
+              </div>
+              <!-- close row -->
+            </form>
+          </div>
+          <!-- close column -->
+        </div>
+        <!-- close row -->
+      </div>
+    </footer>
+    <!-- close footer -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
